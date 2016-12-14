@@ -1,0 +1,98 @@
+body {
+    padding: 13px 40px 0;
+}
+
+.toggle-button {
+    width: 400px;
+    color: white;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.all {
+    background-color: #6699CC;
+    width: 30%;
+    height: 70px;
+    line-height: 70px;
+    border-right: 2px solid grey;
+    display: inline;
+    float: left;
+    cursor: pointer;
+}
+
+.online {
+    cursor: pointer;
+    line-height: 70px;
+    background-color: cadetblue;
+    border-right: 2px solid grey;
+    width: 30%;
+    height: 70px;
+    display: inline;
+    float: left;
+}
+.offline {
+    cursor: pointer;
+    background-color: darkorange;
+    line-height: 70px;
+    width: 30%;
+    height: 70px;
+    display: inline;
+    float: left;
+}
+
+#result {
+    margin-top: 7px;
+}
+.item {
+    width: 800px;
+    height: 70px;
+    margin: 5px auto;
+    background-color: #666699;
+    border-left: 4px solid red;
+    color: whitesmoke;
+    /*border: 2px solid red;*/
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 21px;
+}
+
+span#gameName,span#views-block,span#state ,span#follow-block {
+    position: relative;
+    bottom: 18px;
+}
+span#gameName {
+    display: inline-block;
+    width: 280px;
+}
+
+span#gameName,span#state,span#views-block{
+    margin-right: 21px;
+}
+
+span#views-block {
+    display: inline-block;
+    width: 135px;
+}
+
+span#state {
+    display: inline-block;
+    width: 66px;
+}
+
+div#result {
+    height: 450px;
+}
+
+.footer {
+    text-align: center;
+    font-style: italic;
+    margin-top: 30px;
+}
